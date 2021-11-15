@@ -37,7 +37,8 @@ function preload(){
 
 function setup() {
   createCanvas(600, 200);
-
+  trex = createSprite(50,180,20,50);
+  trex.scale = 0.5;
   ground = createSprite(200,180,400,20);
   ground.addImage("ground",groundImage);
   ground.x = ground.width /2;
