@@ -84,4 +84,3 @@ function spawnClouds() {
     cloudsGroup.add(cloud);
   }
 }
-
